@@ -111,7 +111,7 @@ TCOMBO(RBKT,   &kp RBKT,    &kp LS(RBKT),  &kp UNDER,   &none,         TLR BLP, 
 TCOMBO(GRAVE,  &kp GRAVE,   &kp LS(GRAVE), &kp EQUAL,   &none,         TLR TLM TLI, TRR TRM TRI)
 TCOMBO(NUBS,   &kp NUBS,    &kp LS(NUBS),  &kp PLUS,    &none,         BLR BLM BLI, BRR BRM BRI)
 TCOMBO(DEL,    &kp DEL,     &none,         &kp LC(DEL), &none,         TLR BLR,     TRR BRR)
-TCOMBO(ESC,    &kp ESC,     &none,         &kp N1,      &none,         TLM BLM,     TRM BRM)
+TCOMBO(ESC,    &studio_unlock,     &none,         &kp N1,      &none,         TLM BLM,     TRM BRM)
 TCOMBO(TAB,    &kp TAB,     &kp LA(TAB),   &kp LC(TAB), &none,         TLP BLP,     TRP BRP)
 TCOMBO(ENTER,  &kp ENTER,   &kp LS(ENTER), &none,       &none,         TLI BLI,     TRI BRI)
 TCOMBO(boot,   &none,       &none,  &ext_power EP_OFF,  &bootloader,   TLP TLR TLM TLI,     TRP TRR TRM TRI)
