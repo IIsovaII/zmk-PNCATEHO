@@ -65,7 +65,7 @@ combo_r_space { \
 combo_l_bspc { \
 	timeout-ms = <COMBO_TIMEOUT>; \
 	bindings = <&kp BSPC>; \
-	key-positions = <LOT>; \
+	key-positions = <ROT>; \
 	layers = <COMBO_LAYERS>; \
 };
 
